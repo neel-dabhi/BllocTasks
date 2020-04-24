@@ -1,4 +1,4 @@
-package com.neelkanthjdabhi.blloctasks.Gallery;
+package com.neelkanthjdabhi.blloctasks.gallerytask;
 
 /**
  * author CodeBoy722

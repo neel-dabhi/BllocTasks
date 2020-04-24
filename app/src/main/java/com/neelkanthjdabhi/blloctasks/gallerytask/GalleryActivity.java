@@ -1,6 +1,7 @@
-package com.neelkanthjdabhi.blloctasks.Gallery;
+package com.neelkanthjdabhi.blloctasks.gallerytask;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.database.Cursor;
@@ -23,14 +24,18 @@ public class GalleryActivity extends AppCompatActivity implements itemClickListe
 
     RecyclerView folderRecycler;
     TextView empty;
+    private androidx.appcompat.widget.Toolbar mTopToolbar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gallery);
-        getSupportActionBar().setTitle("Photos");
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.black)));
 
+        mTopToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(mTopToolbar);
+//        getSupportActionBar().setTitle("Photos");
+//        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.black)));
 
         folderRecycler = findViewById(R.id.folderRecycler);
         folderRecycler.addItemDecoration(new MarginDecoration(this));

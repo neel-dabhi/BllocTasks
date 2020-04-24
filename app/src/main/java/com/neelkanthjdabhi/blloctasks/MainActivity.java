@@ -11,8 +11,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.neelkanthjdabhi.blloctasks.Gallery.GalleryActivity;
-import com.neelkanthjdabhi.blloctasks.Switch.SwitchActivity;
+import com.neelkanthjdabhi.blloctasks.gallerytask.GalleryActivity;
+import com.neelkanthjdabhi.blloctasks.switchtask.SwitchActivity;
 
 public class MainActivity extends AppCompatActivity {
     private static final int MY_PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE = 1;

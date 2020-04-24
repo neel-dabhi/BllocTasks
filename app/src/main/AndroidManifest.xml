@@ -17,11 +17,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.neelkanthjdabhi.blloctasks.Switch.SwitchActivity"/>
+        <activity android:name="com.neelkanthjdabhi.blloctasks.switchtask.SwitchActivity"/>
         <activity
             android:theme="@style/GalleryTheme"
-            android:name="com.neelkanthjdabhi.blloctasks.Gallery.GalleryActivity" />
-        <activity android:name="com.neelkanthjdabhi.blloctasks.Gallery.ImageDisplay"/>
+            android:name="com.neelkanthjdabhi.blloctasks.gallerytask.GalleryActivity" />
+        <activity android:name="com.neelkanthjdabhi.blloctasks.gallerytask.ImageDisplay"/>
 
         <activity android:name="com.neelkanthjdabhi.blloctasks.MainActivity">
             <intent-filter>

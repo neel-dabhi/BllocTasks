@@ -1,4 +1,4 @@
-package com.neelkanthjdabhi.blloctasks.Gallery;
+package com.neelkanthjdabhi.blloctasks.gallerytask;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -58,7 +58,8 @@ public class pictureFolderAdapter extends RecyclerView.Adapter<pictureFolderAdap
                 .apply(new RequestOptions().centerCrop())
                 .into(holder.folderPic);
 
-        String text = "("+folder.getNumberOfPics()+") "+folder.getFolderName();
+        String text = folder.getFolderName() +System.lineSeparator()+folder.getNumberOfPics()+ " Media";
+
         holder.folderName.setText(text);
 
         holder.folderPic.setOnClickListener(new View.OnClickListener() {

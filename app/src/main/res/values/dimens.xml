@@ -2,9 +2,8 @@
   <!-- Default screen margins, per the Android Design guidelines. -->
 
     <dimen name="item_margin">1dp</dimen>
-
     <dimen name="folder_column_width">120dp</dimen>
-
   <dimen name="picture_column_width">90dp</dimen>
+  <dimen name="actionbar_size">90dp</dimen>
 
 </resources>

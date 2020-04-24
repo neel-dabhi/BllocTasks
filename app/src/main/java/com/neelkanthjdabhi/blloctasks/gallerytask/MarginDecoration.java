@@ -1,4 +1,4 @@
-package com.neelkanthjdabhi.blloctasks.Gallery;
+package com.neelkanthjdabhi.blloctasks.gallerytask;
 
 import android.content.Context;
 import android.graphics.Rect;

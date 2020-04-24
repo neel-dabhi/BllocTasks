@@ -6,19 +6,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Gallery.GalleryActivity">
+    tools:context=".gallerytask.GalleryActivity">
 
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:minHeight="@dimen/actionbar_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/gallery_title"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            app:titleTextColor="@android:color/white"
+            android:background="@android:color/black">
+        </androidx.appcompat.widget.Toolbar>
 
-        <com.neelkanthjdabhi.blloctasks.Gallery.AutoFitRecyclerView
+        <com.neelkanthjdabhi.blloctasks.gallerytask.AutoFitRecyclerView
             android:id="@+id/folderRecycler"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignParentTop="true"
+            android:layout_below="@id/my_toolbar"
             android:layout_marginTop="0dp"
             android:background="@android:color/black"
             android:clipToPadding="false"
@@ -30,7 +40,7 @@
        app:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable"
        app:fastScrollVerticalTrackDrawable="@drawable/line_drawable"-->
 
-        </com.neelkanthjdabhi.blloctasks.Gallery.AutoFitRecyclerView>
+        </com.neelkanthjdabhi.blloctasks.gallerytask.AutoFitRecyclerView>
 
     </RelativeLayout>
 

@@ -11,8 +11,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/folderCard"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginTop="1dp"
         app:cardCornerRadius="1dp">
 
@@ -25,16 +25,17 @@
                 android:id="@+id/folderPic"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="8"
+                android:layout_weight="7"
                 app:srcCompat="@drawable/cat" />
 
             <TextView
                 android:id="@+id/folderName"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="2"
+                android:layout_weight="3"
+                android:layout_marginLeft="6dp"
                 android:ellipsize="end"
-                android:gravity="center"
+                android:gravity="left"
                 android:maxLines="2"
                 android:text="folder name"
                 android:textColor="@android:color/white"

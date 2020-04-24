@@ -1,4 +1,4 @@
-package com.neelkanthjdabhi.blloctasks.Gallery;
+package com.neelkanthjdabhi.blloctasks.gallerytask;
 
 import android.view.View;
 import android.widget.ImageView;

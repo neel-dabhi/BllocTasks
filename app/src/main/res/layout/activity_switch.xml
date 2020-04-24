@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Switch.SwitchActivity">
+    tools:context=".switchtask.SwitchActivity">
 
-    <com.neelkanthjdabhi.blloctasks.Switch.CustomSwitchCompact
+    <com.neelkanthjdabhi.blloctasks.switchtask.CustomSwitchCompact
         android:id="@+id/customSwitchCompact"
         style="@style/SwitchCompatTheme"
         android:layout_width="wrap_content"

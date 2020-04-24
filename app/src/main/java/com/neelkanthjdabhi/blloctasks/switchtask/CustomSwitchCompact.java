@@ -1,4 +1,4 @@
-package com.neelkanthjdabhi.blloctasks.Switch;
+package com.neelkanthjdabhi.blloctasks.switchtask;
 
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
