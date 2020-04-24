@@ -11,8 +11,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/folderCard"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
         android:layout_marginTop="1dp"
         app:cardCornerRadius="1dp">
 
@@ -36,7 +36,9 @@
                 android:layout_marginLeft="6dp"
                 android:ellipsize="end"
                 android:gravity="left"
-                android:maxLines="2"
+                android:textStyle="italic"
+                android:textFontWeight="800"
+                android:fontFamily="@font/josefin"
                 android:text="folder name"
                 android:textColor="@android:color/white"
                 android:textSize="15sp" />
