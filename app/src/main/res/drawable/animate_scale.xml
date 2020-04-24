@@ -2,31 +2,41 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_checked="true">
         <set>
-            <objectAnimator android:propertyName=""
-                android:duration="@android:integer/config_shortAnimTime"
-                android:valueTo="1"
-                android:pivotX="50%"
-                android:pivotY="50%"
-                android:valueType="floatType"/>
-            <objectAnimator android:propertyName=""
-                android:duration="@android:integer/config_shortAnimTime"
-                android:valueTo="1"
-                android:valueType="floatType"/>
+            <objectAnimator
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:duration="1000"
+                android:repeatCount="1"
+                android:repeatMode="reverse">
+                <propertyValuesHolder
+                    android:valueType="pathType"
+                    android:propertyName="pathData">
+                    <keyframe android:fraction="0" android:value="@string/path1"/>
+                    <keyframe android:fraction=".25" android:value="@string/path2"/>
+                    <keyframe android:fraction=".50" android:value="@string/path3"/>
+                    <keyframe android:fraction=".75" android:value="@string/path4"/>
+                    <keyframe android:fraction="1" android:value="@string/path5"/>
+                </propertyValuesHolder>
+            </objectAnimator>
         </set>
     </item>
     <!-- the default, non-pressed state; set x and y size to 100% -->
     <item android:state_checked="false">
         <set>
-            <objectAnimator android:propertyName=""
-                android:duration="@android:integer/config_shortAnimTime"
-                android:valueTo="1"
-                android:pivotX="50%"
-                android:pivotY="50%"
-                android:valueType="floatType"/>
-            <objectAnimator android:propertyName=""
-                android:duration="@android:integer/config_shortAnimTime"
-                android:valueTo="1"
-                android:valueType="floatType"/>
+            <objectAnimator
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:duration="1000"
+                android:repeatCount="1"
+                android:repeatMode="reverse">
+                <propertyValuesHolder
+                    android:valueType="pathType"
+                    android:propertyName="pathData">
+                    <keyframe android:fraction="0" android:value="@string/path1"/>
+                    <keyframe android:fraction=".25" android:value="@string/path2"/>
+                    <keyframe android:fraction=".50" android:value="@string/path3"/>
+                    <keyframe android:fraction=".75" android:value="@string/path4"/>
+                    <keyframe android:fraction="1" android:value="@string/path5"/>
+                </propertyValuesHolder>
+            </objectAnimator>
         </set>
     </item>
 </selector>

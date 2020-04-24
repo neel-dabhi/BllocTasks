@@ -7,11 +7,12 @@
     tools:context=".Switch.SwitchActivity">
 
     <com.neelkanthjdabhi.blloctasks.Switch.CustomSwitchCompact
+        android:id="@+id/customSwitchCompact"
         style="@style/SwitchCompatTheme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:animateLayoutChanges="true"
         android:background="@null"
         android:stateListAnimator="@drawable/animate_scale"

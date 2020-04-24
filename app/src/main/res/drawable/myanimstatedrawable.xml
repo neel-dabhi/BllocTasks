@@ -15,13 +15,11 @@
             <item android:drawable="@drawable/ic_ring8" android:duration="20" />
             <item android:drawable="@drawable/ic_ring6" android:duration="20" />
             <item android:drawable="@drawable/ic_ring2" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring2" android:duration="20" />
         </animation-list>
     </transition>
 
     <transition android:fromId="@+id/buttonOff" android:toId="@+id/buttonOn">
         <animation-list>
-            <item android:drawable="@drawable/ic_ring2" android:duration="20" />
             <item android:drawable="@drawable/ic_ring2" android:duration="20" />
             <item android:drawable="@drawable/ic_ring6" android:duration="20" />
             <item android:drawable="@drawable/ic_ring8" android:duration="20" />
