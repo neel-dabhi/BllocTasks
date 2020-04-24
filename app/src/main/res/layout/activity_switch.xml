@@ -15,12 +15,11 @@
         android:layout_centerVertical="true"
         android:animateLayoutChanges="true"
         android:background="@null"
-        android:stateListAnimator="@drawable/animate_scale"
-        android:thumb="@drawable/myanimstatedrawable"
+        android:thumb="@drawable/thumb"
+        app:track="@drawable/track"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:track="@drawable/track" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
