@@ -4,33 +4,33 @@
     <item android:id="@+id/buttonOff" android:state_checked="true" android:drawable="@drawable/ic_ring2"/>
     <transition android:fromId="@+id/buttonOn" android:toId="@+id/buttonOff">
         <animation-list>
-            <item android:drawable="@drawable/ic_ring24" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring22" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring20" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring18" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring16" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring14" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring12" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring10" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring8" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring6" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring2" android:duration="20" />
+            <item android:drawable="@drawable/ic_ring24" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring22" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring20" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring18" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring16" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring14" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring12" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring10" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring8" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring6" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring2" android:duration="25" />
         </animation-list>
     </transition>
 
     <transition android:fromId="@+id/buttonOff" android:toId="@+id/buttonOn">
         <animation-list>
-            <item android:drawable="@drawable/ic_ring2" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring6" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring8" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring10" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring12" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring14" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring16" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring18" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring20" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring22" android:duration="20" />
-            <item android:drawable="@drawable/ic_ring24" android:duration="20" />
+            <item android:drawable="@drawable/ic_ring2" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring6" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring8" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring10" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring12" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring14" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring16" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring18" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring20" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring22" android:duration="25" />
+            <item android:drawable="@drawable/ic_ring24" android:duration="25" />
 
         </animation-list>
     </transition>

@@ -72,7 +72,7 @@ import androidx.interpolator.view.animation.LinearOutSlowInInterpolator;
  */
 public class CustomSwitchCompact extends CompoundButton {
 
-    private static final int THUMB_ANIMATION_DURATION = 650;
+    private static final int THUMB_ANIMATION_DURATION = 750;
 
     private static final int TOUCH_MODE_IDLE = 0;
     private static final int TOUCH_MODE_DOWN = 1;
